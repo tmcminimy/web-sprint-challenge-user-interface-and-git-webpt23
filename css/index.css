@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,7 +45,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* CSS RESET END */
 
+/* GENERAL SITE CSS START */
 * {
     box-sizing: border-box;
 }
@@ -60,17 +61,95 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight:900;
+}
+
+a {
+    text-decoration:none;
 }
 
 p {
     line-height: 1.4;
 }
+/* GENERAL SITE CSS END */
+
+/* HEADER AREA START */
+header {
+    margin-top:2%;
+    margin-bottom:3%;
+    display:flex;
+    justify-content:space-around;
+}
+.lambdaLogo {
+    margin-left:17%;
+}
+.topButtons {
+    width:70%;
+    display:flex;
+    align-content:center;
+    align-items:flex-end;
+    justify-content:space-between;
+    margin-left:3%;
+    margin-right:19%;
+}
+.topButtons a {
+    color:black;
+}
+/* HEADER AREA END */
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* ABOUT PAGE CSS START */
+.aboutAbout {
+    border-bottom:2px dotted black;
+    margin: 2% 2% 5% 2%;
+    padding-bottom:20px;
+}
+.learnMore {
+    border:2px solid black;
+    border-radius:10px;
+    text-align:center;
+    width:130px;
+    padding:10px;
+    margin:5% 0% 5% 0%;
+}
+.learnMore:hover {
+    background-color:black;
+    color:white;
+}
+.strategyWork {
+    display:flex;
+    margin-bottom:5%;
+}
+.aboutStrategy {
+    border-bottom:2px dotted black;
+    width:70%;
+    margin-right:3%;
+}
+.aboutWork {
+    border-bottom:2px dotted black;
+    width:70%;
+}
+.placesCollab {
+    display:flex;
+    margin-bottom:5%;
+}
+.aboutOffice {
+    border-bottom:2px dotted black;
+    width:70%;
+    margin-right:3%;
+}
+.aboutCollab {
+    border-bottom:2px dotted black;
+    width:70%;
+}
+.workTogether {
+    margin-bottom:5%;
+}
+/* ABOUT PAGE CSS END */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +161,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top:3%;  
 }
 
 .middle-content {
@@ -95,22 +175,146 @@ p {
     margin-bottom: 0;
 }
 
+/* HERE THERE BE BOXES */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
+.box1 {
+    background-color:teal;
+    width:12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1:hover {
+    background-color:orange;
+}
+.box2 {
+    background-color:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2:hover {
+    background-color:navy;
+}
+.box3 {
+    background-color:cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3:hover {
+    background-color:chartreuse;
+    color:black;
+}
+.box4 {
+    background-color:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4:hover {
+    background-color:cornflowerblue;
+}
+.box5 {
+    background-color:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5:hover {
+    background-color:darkslateblue;
+}
+.box6 {
+    background-color:forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6:hover {
+    background-color:wheat;
+    color:black;
+}
+.box7 {
+    background-color:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7:hover {
+    background-color:#bcd2f6;
+    color:black;
+}
+.box8 {
+    background-color:hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8:hover {
+    background-color:#1bc301;
+}
+.box9 {
+    background-color:indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9:hover {
+    background-color:#cb5c11;
+}
+.box10 {
+    background-color:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10:hover {
+    background-color:#a910b4;
+}
+/* ARRRR NO MORE BOXES MATEY */
 
 .bottom-content {
     display: flex;
